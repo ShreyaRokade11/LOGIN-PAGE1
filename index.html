@@ -1,0 +1,103 @@
+<DOCTYPE html>
+ <html>
+    <head>
+        <title>LOGIN PAGE</title>
+
+        <style>
+            body{
+    
+                background:url(bgimg.jpg);
+                background-repeat: no-repeat;
+                background-size:1700px 800px ;
+            
+            }
+            .card{
+                margin-top:10%;
+                margin-left:40%;
+                height:360px;
+                width:330px;
+                border-radius:20px;
+                background-color: rgb(247, 243, 245);
+                backdrop-filter: blur;
+                text-align: center;
+                cursor: pointer;
+                opacity:0.8;
+            }
+            .card :hover{
+                opacity: 1.0;
+            }
+            .email input{
+                margin-top: 20px;
+                border: none;
+                outline:none;
+                font-size: 22px;
+                border-bottom: 2px solid gray;
+                cursor: pointer;
+            }
+            .password input{
+                margin-top: 40px;
+                border: none;
+                outline:none;
+                font-size: 22px;
+                border-bottom: 2px solid gray;
+                cursor: pointer;
+            }
+           .forgot{
+                margin-top: 20px;
+                font-size: 18px;
+                cursor: pointer;
+           }
+            .login-btn{
+            width:240px;
+            height:40px;
+            background-color:  rgb(91, 173, 240);
+            border:none;
+            color:white;
+            font: 18px;
+            border-radius: 20px;
+            margin-top: 40px;
+            cursor: pointer;
+
+           }
+           .login-btn :hover{
+            font-size: 22px;
+
+           }
+         .sign-up{
+            margin-top: 20px;
+            font-size: 18px;
+            cursor: pointer;
+            
+         }
+         span{
+            margin-top: 20px;
+            font-size: 18px;
+            color:  rgb(91, 173, 240);
+            cursor: pointer;
+         }
+        </style>
+    </head>
+<body>
+    <div class="card">
+         
+        <div class="email">
+            <h1 class="head">Login</h1>
+            <input type="text" placeholder="Email">
+        </div>
+
+        <div class="password">
+            <input type="password" placeholder="password">
+        </div>
+
+        <div class="forgot">Forgot password</div>
+
+        <div class="btn">
+             <button class="login-btn">LOGIN</button>
+        </div>     
+    
+       <div class="sign-up">Not a member?<span>sign Up</span></div>
+    
+    </div>
+
+ </body>   
+ </html>   
